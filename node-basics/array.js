@@ -8,4 +8,5 @@ grades.forEach(function (grade) {
 });
 
 // console.log totalGrade / total number of grades
-console.log(totalGrade/grades.length);
+var average = totalGrade / grades.length;
+console.log('Average is ' + average);
